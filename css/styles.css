@@ -72,11 +72,20 @@ ul.container-primary:hover:focus {
 /* section */
 
 .main-hero {
-    background-color: #2E2F42;
-    color:#FFF;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background: #2E2F42 ;
+    background-image: linear-gradient(to bottom, rgba(46,47,66,0.70), rgba(46,47,66,0.70)), url(../images/people-office.jpg);
+    color:#FFF;
+    background-position: center;
+    background-size: cover;
+}
+.hero-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding-top: 188px;
     padding-left: 472px;
     padding-right: 472px;
@@ -96,9 +105,6 @@ ul.container-primary:hover:focus {
     color: #FFFFFF;
     cursor:pointer;
     border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 32px;
@@ -123,6 +129,15 @@ ul.container-primary:hover:focus {
 .box {
     margin-left: 18px;
     margin-right: 18px;
+}
+.boxicons {
+    background: #F4F4FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .head {
     font-size: 20px;
@@ -233,42 +248,133 @@ div.par-first {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     background-color: #FFFFFF;
-    padding-bottom: 10px;
     }
 div.par-second {
     text-align: center;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     background-color: #FFFFFF;
-    padding-bottom: 10px;   
 }
 div.par-third {
     text-align: center;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     background-color: #FFFFFF;
-    padding-bottom: 10px;
 }
 div.par-fourth {
     text-align: center;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     background-color: #FFFFFF;
-    padding-bottom: 10px;
 }
 
+/* socialmedia design */
+.socialmedia {
+    padding-bottom: 10px;
+}
+/* socialicon design */
+.socialicon {
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #F4F4FD;
+    padding: 10px;
+    border-radius: 50%;
+}
+.socialmediaicons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    padding-bottom: 20px;
+}
+/* Customer Section design start */
+.icon-main {
+    fill: #8E8F99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    
+}
+.icons {
+    fill: #8E8F99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none; 
+    padding-bottom: 65px;
+    padding-left: 35px;
+    padding-right: 35px;
+}   
+
+.icon-team {
+    border: 1px solid #8E8F99;
+    margin: 10px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+.down {
+    fill: #8E8F99;
+}
+    
 /* footer design start */
-footer {
+.final {
+    background-color: #2E2F42;
     width: 1440px;
     height: 312px; 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    display: flex-start;
+    align-items: center;
     padding-left: 100px;
 }
 .logo-set {
     font-weight: 800;
-    font-size: 18px;
-    
+    font-size: 18px;   
+}
+.logo-initial {
+    color: #4D5AE5;
+}
+.final-icons {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 0px;
+    color: #F4F4FD;
+    margin: 0px;
+}
+.final-primary {
+    margin-left: 50px;
+    padding-left: 166px;
 }
 /* footer design end */
+
+/* footer icons design */
+.media {
+    padding-left: 10px
+}
+.media-final {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.media-icons {
+    display: flex;
+    align-items: center;   
+    
+}
+.footer-icon {
+    display: flex;
+    background-color: #4D5AE5;
+    fill: #F4F4FD;
+    padding: 10px;
+    border-radius: 50%;
+}
+.paragraph {
+    margin: 0px;
+}
